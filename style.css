@@ -48,6 +48,7 @@ body {
 
 .a-left .hero-2 {
     width: 450px;
+    margin-bottom: 5px;
 }
 
 .a-left .hero-main {
@@ -57,7 +58,8 @@ body {
 .sign-up {
     background-color: #3882f6;
     color: white;
-    padding: 5px 15px;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
 
 .a-right {
