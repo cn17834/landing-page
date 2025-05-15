@@ -9,8 +9,6 @@ body {
 }
 
 .top {
-    font-size: 18px;
-    color: #e5e7eb;
     display: flex;
     justify-content: space-around;
     align-items: center;
