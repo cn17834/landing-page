@@ -5,7 +5,13 @@ body {
 
 .header, .footer {
     background-color: #1f2937;
-    height: 100px;
+    height: 200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
 }
 
 .top {
@@ -21,6 +27,7 @@ body {
 
 .awesome {
     display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -33,6 +40,31 @@ body {
 .hero-2 {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.a-left {
+    flex-wrap: wrap;
+}
+
+.a-left .hero-2 {
+    width: 450px;
+}
+
+.a-left .hero-main {
+    width: 400px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 15px;
+}
+
+.a-right {
+    background-color: #383c41;
+    height: 100px;
+    width: 400px;
+    flex-shrink: 0;
 }
 
 ul {
