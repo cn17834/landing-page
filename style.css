@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 60px; 
+    padding-bottom: 40px;
 }
 
 .top {
@@ -27,7 +28,8 @@ body {
 
 .awesome {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 35px;
 
 }
 
@@ -63,10 +65,13 @@ body {
 }
 
 .a-right {
-    background-color: #383c41;
-    height: 100px;
-    width: 400px;
-    flex-shrink: 0;
+    background-color: #585b5f;
+    color: white;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
