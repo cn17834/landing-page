@@ -135,6 +135,14 @@ body {
     font-weight: 900;
 }
 
+.call-action {
+    height: 300px;
+}
+
+.footer {
+    height: 100px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
