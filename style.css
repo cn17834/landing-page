@@ -111,6 +111,30 @@ body {
     text-align: center;
 }
 
+.quote-box {
+     background-color: #e5e7eb;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    flex-wrap: wrap;
+    width: 790px;
+    margin-bottom: 20px;
+}
+
+.author {
+    margin-left: 550px;
+    font-weight: 900;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
