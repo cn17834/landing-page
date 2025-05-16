@@ -21,6 +21,13 @@ body {
     align-items: center;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+
 .top .logo {
     font-weight: 900;
     font-size: 24px;
@@ -60,6 +67,7 @@ body {
 .sign-up {
     background-color: #3882f6;
     color: white;
+    font-weight: 600;
     padding: 5px 25px;
     border-radius: 10px;
 }
@@ -142,9 +150,6 @@ body {
     align-items: center;
 }
 
-.footer {
-    height: 100px;
-}
 
 .call-action-box {
     background-color: #3882f6;
@@ -173,9 +178,11 @@ body {
    
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.footer {
     display: flex;
-    gap: 15px;
-  }
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
+
