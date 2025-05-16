@@ -65,7 +65,7 @@ body {
 }
 
 .a-right {
-    background-color: #585b5f;
+    background-color: #717375;
     color: white;
     height: 250px;
     width: 500px;
@@ -137,10 +137,40 @@ body {
 
 .call-action {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     height: 100px;
+}
+
+.call-action-box {
+    background-color: #3882f6;
+    height: 150px;
+    width: 850px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-left: 70px;
+    padding-right: 50px;
+
+}
+
+.call-action-big {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.right .sign-up {
+    border: solid #f9faf8;
+    border-radius: 10px;
+    padding: 5px 30px;
+   
 }
 
 ul {
