@@ -66,6 +66,7 @@ ul {
 
 .sign-up {
     background-color: #3882f6;
+    border: solid #1f2937;
     color: white;
     font-weight: 600;
     padding: 5px 25px;
@@ -172,7 +173,7 @@ ul {
 }
 
 .right .sign-up {
-    border: solid #f9faf8;
+    border-color: #f9faf8;
     border-radius: 10px;
     padding: 5px 30px;
    
