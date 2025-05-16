@@ -1,3 +1,3 @@
 # landing-page
-This is my second Odin project of a simple recipe website that demonstrates my HTML, CSS & git skills.
+This is my second Odin project of a landing page website that demonstrates my HTML, CSS (notably flexbox) & git skills.
 
