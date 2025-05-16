@@ -83,6 +83,34 @@ body {
     padding-top: 35px;
 }
 
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-text {
+    margin-bottom: 50px;
+}
+
+.box {
+    border: solid;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: #3882f6;
+    margin-bottom: 5px;
+}
+
+
+.subtext {
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 300;
+    width: 170px;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
