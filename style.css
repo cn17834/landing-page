@@ -5,7 +5,6 @@ body {
 
 .header, .footer {
     background-color: #1f2937;
-    height: 200px;
 }
 
 .header {
@@ -13,6 +12,7 @@ body {
     flex-direction: column;
     gap: 60px; 
     padding-bottom: 40px;
+    height: 400px;
 }
 
 .top {
@@ -72,6 +72,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info {
+    height: 400px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 35px;
 }
 
 ul {
